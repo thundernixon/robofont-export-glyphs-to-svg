@@ -5,12 +5,13 @@ f = CurrentFont()
 # set up canvas size
 # W,H = 1000,1000
 
-# # for each glyph in the current font...
-# for g in f:
-    
 # # for each selected glyph in font...
-for glyphName in f.selectedGlyphNames:
-    g = f[glyphName]
+# for glyphName in f.selectedGlyphNames:
+#     g = f[glyphName]
+
+# for each glyph in the current font...
+for g in f:    
+
     # check that there is a drawing 
     if g.box != None:
         # get drawing size
